@@ -1,0 +1,50 @@
+//gradient
+$background-left-gradient: linear-gradient(190deg, rgba(233,66,255,1) 10%, rgba(136,56,255,1) 100%);
+$background-right-gradient: linear-gradient(190deg, rgba(233,66,255,10%) 10%, rgba(136,56,255,10%) 100%);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+
+
+section{
+width: 100vw;
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr 1fr;
+//APP SECTION
+  .app-section{
+    .app-background{
+      background: rgb(233,66,255);
+      background: $background-left-gradient;
+      width: 50rem;
+      height: 90vh;
+      border-bottom-left-radius: 30rem;
+      border-bottom-right-radius: 30rem;
+      margin-left: -5rem;
+    }
+  }
+
+  //TEXT SECTION 
+  .text-section{
+    position: relative;
+    .text-background{
+      position: absolute;
+      bottom: 0;
+      right: -15%;
+      width: 50rem;
+      height: 90vh;
+      background: rgb(233,66,255);
+      background: $background-right-gradient;
+      border-top-left-radius: 30rem;
+      border-top-right-radius: 20rem;
+    }
+  }
+}

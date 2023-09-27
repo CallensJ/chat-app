@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section .app-section .app-background {
+  background: rgb(233, 66, 255);
+  background: linear-gradient(190deg, rgb(233, 66, 255) 10%, rgb(136, 56, 255) 100%);
+  width: 50rem;
+  height: 90vh;
+  border-bottom-left-radius: 30rem;
+  border-bottom-right-radius: 30rem;
+  margin-left: -5rem;
+}
+section .text-section {
+  position: relative;
+}
+section .text-section .text-background {
+  position: absolute;
+  bottom: 0;
+  right: -15%;
+  width: 50rem;
+  height: 90vh;
+  background: rgb(233, 66, 255);
+  background: linear-gradient(190deg, rgba(233, 66, 255, 0.1) 10%, rgba(136, 56, 255, 0.1) 100%);
+  border-top-left-radius: 30rem;
+  border-top-right-radius: 20rem;
+}/*# sourceMappingURL=styles.css.map */

@@ -30,9 +30,9 @@ These two colors are the vibrant background colors you see throughout the design
 ### Secondary
 
 - White: hsl(0, 0%, 100%)
-- Light Grayish Violet (app background): hsl(270, 20%, 96%)
-- Very Dark Desaturated Violet (submit button background): hsl(271, 36%, 24%)
-- Very Light Magenta (radio button outline): hsl(289, 100%, 72%)
+- Light Grayish Violet (app background): hsl(270, 20%, 96%);
+- Very Dark Desaturated Violet (submit button background): hsl(271, 36%, 24%);
+- Very Light Magenta (radio button outline): hsl(289, 100%, 72%);
 
 ## Typography
 
